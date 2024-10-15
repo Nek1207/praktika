@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="calendarb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="148" y="148" width="304" height="304" rx="32.05" ry="32.05"/>
+    <line class="cls-2" x1="148" y1="216" x2="452" y2="216"/>
+    <line class="cls-2" x1="176.05" y1="148" x2="176.05" y2="216"/>
+    <line class="cls-2" x1="426.15" y1="146.23" x2="426.15" y2="214.23"/>
+    <line class="cls-2" x1="226.15" y1="146.23" x2="226.15" y2="214.23"/>
+    <line class="cls-2" x1="276.15" y1="146.23" x2="276.15" y2="214.23"/>
+    <line class="cls-2" x1="326.15" y1="146.23" x2="326.15" y2="214.23"/>
+    <line class="cls-2" x1="376.15" y1="146.23" x2="376.15" y2="214.23"/>
+  </g>
+  <rect class="cls-1" x="179" y="246" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="243" y="246" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="306" y="246" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="371" y="246" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="179" y="308" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="243" y="308" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="306" y="308" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="371" y="308" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="179" y="370" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="243" y="370" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="306" y="370" width="50" height="50" rx="10" ry="10"/>
+  <rect class="cls-1" x="371" y="370" width="50" height="50" rx="10" ry="10"/>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1441 701">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Minecraft1.1, 'Minecraft 1.1';
+        font-size: 36px;
+      }
+
+      .cls-3 {
+        stroke-width: 40px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 20px;
+      }
+
+      .cls-4, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-6 {
+        stroke-width: 10px;
+      }
+
+      .cls-7 {
+        stroke-width: 15px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="247" y="418" width="339.38" height="208" rx="25" ry="25"/>
+  <rect class="cls-6" x="274" y="445" width="285" height="155" rx="10.5" ry="10.5"/>
+  <line class="cls-3" x1="417" y1="626" x2="417" y2="690"/>
+  <line class="cls-4" x1="349" y1="690" x2="491" y2="690"/>
+  <text class="cls-2" transform="translate(293.94 494.57)"><tspan x="0" y="0">011010010</tspan><tspan x="0" y="43.2">101001011</tspan><tspan x="0" y="86.4">010110101</tspan></text>
+  <rect class="cls-5" x="1017" y="298" width="175" height="391" rx="36" ry="36"/>
+  <line class="cls-7" x1="1057" y1="329" x2="1158" y2="329"/>
+  <circle class="cls-7" cx="1107" cy="394" r="41.5"/>
+  <circle cx="417.5" cy="626.5" r="6.5"/>
+  <circle class="cls-1" cx="1106.5" cy="392.5" r="16.5"/>
+  <circle class="cls-7" cx="1106.67" cy="504.33" r="41.5"/>
+  <circle class="cls-1" cx="1106.17" cy="502.83" r="16.5"/>
+  <circle class="cls-7" cx="1108" cy="615" r="41.5"/>
+  <circle class="cls-1" cx="1107.5" cy="613.5" r="16.5"/>
+  <rect class="cls-7" x="159.5" y="583.5" width="57" height="109" rx="13.72" ry="13.72"/>
+  <ellipse class="cls-1" cx="188" cy="615.5" rx="12" ry="12.5"/>
+  <ellipse class="cls-1" cx="188" cy="653.5" rx="12" ry="12.5"/>
+  <rect class="cls-5" x="632.33" y="418.39" width="339.38" height="208" rx="25" ry="25"/>
+  <rect class="cls-6" x="659.33" y="445.39" width="285" height="155" rx="10.5" ry="10.5"/>
+  <line class="cls-3" x1="802.33" y1="626.39" x2="802.33" y2="690.39"/>
+  <line class="cls-4" x1="734.33" y1="690.39" x2="876.33" y2="690.39"/>
+  <text class="cls-2" transform="translate(679.28 494.96)"><tspan x="0" y="0">101010110</tspan><tspan x="0" y="43.2">010010100</tspan><tspan x="0" y="86.4">000111010</tspan></text>
+  <circle cx="802.83" cy="626.89" r="6.5"/>
+  <rect class="cls-7" x="1223.5" y="583.5" width="57" height="109" rx="13.72" ry="13.72"/>
+  <ellipse class="cls-1" cx="1252" cy="615.5" rx="12" ry="12.5"/>
+  <ellipse class="cls-1" cx="1252" cy="653.5" rx="12" ry="12.5"/>
+</svg>

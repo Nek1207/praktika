@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="400" height="400" rx="35" ry="35"/>
+  <g>
+    <path class="cls-2" d="m205,80l-.24,189.57c-.01,15.46-2.73,10.42-6.01,7.46l-72.38-66.62"/>
+    <line class="cls-2" x1="203.81" y1="282.16" x2="279.43" y2="210.79"/>
+    <line class="cls-2" x1="79" y1="320" x2="330.56" y2="320"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="gosudarstvo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="300" cy="304" r="205"/>
+  <path class="cls-1" d="m300,509c-340-211,0-410,0-410"/>
+  <path class="cls-1" d="m306.37,509c308.37-225,0-409.9,0-409.9"/>
+  <path class="cls-1" d="m313.45,103.67s152.45,176,0,394.67"/>
+  <path class="cls-1" d="m306.37,108.11v377.75c0,5.73-7.12,8.35-10.87,4.01-161.29-186.76,10.87-386.2,10.87-386.2"/>
+  <path class="cls-1" d="m164.6,150.08s130.83,72.4,262.61-6.84"/>
+  <path class="cls-1" d="m128.38,191.86s158.85,103.86,343.24,0"/>
+  <path class="cls-1" d="m100.9,254.97s185.3,95.97,398.2,0"/>
+  <path class="cls-1" d="m95,319.67s161,95.67,410,0"/>
+  <path class="cls-1" d="m113.73,389.7s147.81,74.7,372.54,0"/>
+  <path class="cls-1" d="m145.72,438.98s115.86,65.98,308.57,0"/>
+</svg>
