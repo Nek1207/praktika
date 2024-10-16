@@ -4,18 +4,18 @@
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;}
-	.st2{fill:none;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#000000;stroke-width:40;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <g id="_Слой_3">
-	<path class="st0" d="M157.4,107h278.3c19.5,0,35.4,15.8,35.4,35.4v278.3c0,19.5-15.8,35.4-35.4,35.4H157.4
-		c-19.5,0-35.4-15.8-35.4-35.4V142.4C122,122.8,137.8,107,157.4,107z"/>
+	<path class="st0" d="M60.8,0h478.3C572.7,0,600,27.2,600,60.8v478.3c0,33.5-27.2,60.8-60.8,60.8H60.8C27.3,600,0,572.8,0,539.2
+		V60.8C0,27.2,27.2,0,60.8,0z"/>
 </g>
 <g id="_Слой_2">
-	<polyline class="st1" points="157,228 182,228 182,341 	"/>
-	<polyline class="st1" points="169.5,198.5 213,198.5 213,341 	"/>
-	<path class="st2" d="M350.9,265.9c0,0,7.6-34.8-35.1-34.8c-34.3,0-37.4,23.8-37.2,33.2c0,2.6,0,5.2-0.1,7.9
-		c-0.4,10.4,2.4,36.8,41.2,36.8H436"/>
-	<path class="st1" d="M379.5,270c0,0,7.9-64.2-62.8-64.2s-66.9,64.3-66.9,64.3s-4.2,70.8,65,70.8H436"/>
+	<polyline class="st1" points="60.2,208 103.1,208 103.1,402.2 	"/>
+	<polyline class="st1" points="81.6,157.3 156.4,157.3 156.4,402.2 	"/>
+	<path class="st2" d="M393.4,273.1c0,0,13.1-59.8-60.3-59.8c-59,0-64.3,40.9-63.9,57.1c0,4.5,0,8.9-0.2,13.6
+		c-0.7,17.9,4.1,63.2,70.8,63.2h199.9"/>
+	<path class="st1" d="M442.6,280.1c0,0,13.6-110.3-107.9-110.3s-115,110.5-115,110.5S212.4,402,331.4,402h208.3"/>
 </g>
 </svg>

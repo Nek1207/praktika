@@ -42,7 +42,7 @@ body {
     background-color: transparent;
     overflow-x: hidden; /* отключает горизонтальный скролл */
     overflow-y: scroll; /* включает вертикальный скролл */
-
+    background: black;
 }
 
 .italic {
@@ -88,8 +88,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-around;
+    /* gap: 25px; */
     height: auto;
     padding: 30px;
     padding-left: 50px;
@@ -103,10 +103,9 @@ header {
 
 header img {
     transition: all .25s;
-    width: 10vw;
-    height: 10vh;
-}
-
+    width: 8vw;
+    height: 8vh;
+}   
 header img:hover {
     transition: all .25s;
     scale: 1.25;
@@ -120,17 +119,18 @@ header img:active {
 
 .header__nav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    gap: 15px;
-    width: 100%;
+    gap: 35px;
+    /* width: 100%; */
 }
 
 .header__nav-title,
 .header__cabinet h1,
 .header__cabinet a  {
-    font-size: 32px;
+    font-size: var(--fz4);
     color: white;
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
@@ -148,8 +148,8 @@ header img:active {
 }
 
 .header__cabinet img {
-    width: clamp(5%, 5vw, 25%);
-    height: clamp(5%, 5vh, 25%);
+    width: 10%;
+    height: 10%;
 }
 
 .header__cabinet a:hover,
@@ -184,23 +184,32 @@ section {
 /* XV Международная цифровая олимпиада «Волга-IT» */
 
 .olympiad {
+    position: relative;
     background-color: black;
     color: var(--lightgreen);
     text-align: center;
     font-size: var(--fz2);
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: start;
+    flex-direction: column-reverse;
     gap: 22px;
-    height: 700px;
-    padding-top: 83px;
-    padding-bottom: 5px;
+    height: auto;
+    min-height: 800px;
+    /* padding-top: 83px; */
+    /* padding-bottom: 5px; */
 }
 
-.olympiad img {
-    width: clamp(60%, 85%, 80%);
-    height: clamp(60%, 85%, 80%);
+.olympiad::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/svg/volga_icon1_NEW.svg');
+    filter: opacity(0.75);
+    width: 100%;
+    height: 100%;
+    bottom: -25%;
+    left: auto;
+    background-repeat: no-repeat;
 }
 
 
@@ -220,7 +229,7 @@ section {
     min-height: 700px;
     height: auto;
     background: var(--darkgreen);
-    box-shadow: inset 0 0 30px black;
+    /* box-shadow: inset 0 0 30px black; */
     color: white;
     font-weight: 400;
     display: flex;
@@ -333,7 +342,7 @@ section {
 
 .disciplines h1 {
     font-size: var(--fz7);
-    
+    margin-bottom: 30px;
 }
 
 .discipl {
@@ -350,12 +359,13 @@ section {
     align-items: center;
     margin: 0 auto;
     text-align: left;
-    
+    width: 100%;
+    gap: 60px;
 }
 
 .discipl-item img {
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
 
 }
 
@@ -467,7 +477,7 @@ section {
 /* Самое актуальное */
 
 .actual {
-    height: 2200px;
+    height: auto;
     background-color: var(--intermediategreen);
     box-shadow: inset 0 0 60px black;
     display: flex;
@@ -570,7 +580,7 @@ section {
 /* Что даёт участие? */
 
 .ychastie {
-    height: 800px;
+    height: auto;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -681,7 +691,7 @@ section {
 /* Задания и решения прошлых лет */
 
 .tasks {
-    height: 1500px;
+    height: auto;
     background-color: black;
     box-shadow: inset 0 0 60px black;
     display: flex;
@@ -707,7 +717,7 @@ section {
 }
 
 .year-n-spec {
-    height: 90px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -821,7 +831,13 @@ section {
     transition: all .25s;
 }
 
-
+.downloads {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+}
 
 .download {
     font-size: var(--fz5);
@@ -838,7 +854,7 @@ section {
 
 
 .komitet {
-    height: 1800px;
+    height: auto;
     background-color: var(--intermediategreen);
     box-shadow: inset 0 0 60px black;
     display: flex;
@@ -962,7 +978,7 @@ section {
 
 
 .winners {
-    height: 1200px;
+    height: auto;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -1072,7 +1088,7 @@ section {
 
 
 .register {
-    height: 150px;
+    height: auto;
     background: var(--lightgreen);
     display: flex;
     flex-direction: row;
@@ -1237,8 +1253,8 @@ footer {
 }
 
 .footer-links img {
-    width: 30%;
-    height: 30%;
+    width: 8%;
+    height: 8%;
 }
 
 .social-links {
@@ -1275,4 +1291,219 @@ footer {
 
 }
 
+@media (max-width: 1488px) {
+    .olympiad {
+        width: 100%;    
+    }
+    .steps-description p {
+        font-size: var(--fz2);
+    }
+    .actual__inner-item {
+        min-height: 600px;
+        justify-content: space-between;
+    }
+    .tasks__inner-item:nth-child(1) {
+        width: 30%;
+    }
+    .tasks__inner-item:nth-child(2) {
+        width: 70%;
+    }
+    h1 {
+        font-size: var(--fz3);
+    }
+    .numbers {
+        gap: 50px;
+    }
+    .our-numbers h1 {
+        font-size: var(--fz5);
+    }
+    .numbers-item h1 {
+        font-size: var(--fz3);
+    }
+    .numbers-item p {
+        font-size: var(--fz4);
+    }
+    .steps-item {
+        width: 100%;
+        gap: 15px;
+    }
+    .disciplines h1 {
+        font-size: var(--fz5);
+        margin-bottom: 60px;
+    }
+    .discipl-description h1 {
+        font-size: var(--fz3);
+    }
+    .discipl-description ul {
+        font-size: var(--fz4);
+    }
+    .discipl-item {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 30px;
+    }
+    .tasks__inner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 50px;
+    
+    }
+    .tasks__inner-item {
+        flex-wrap: wrap;
+    }
+}
 
+
+@media (max-width: 1150px) {
+    .tasks__inner-item {
+        flex-direction: column;
+    }
+    .tasks__inner-item:nth-child(2) .downloads .download {
+        font-size: var(--fz2);
+    }
+    .downloads {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .download {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        font-size: var(--fz3);
+        white-space: nowrap;
+    }
+    .year-n-spec {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .year-n-spec select[name="year"] {
+        width: 40%;
+        height: 70px;
+    }
+    .year-n-spec select[name="spec"] {
+        width: 90%;
+        height: 70px;
+    }
+    .tasks {
+        gap: 50px;
+    }
+    .tasks__inner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 50px;
+    
+    }
+    .tasks__inner-item {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+    .description {
+        width: 100%;
+    }    
+    .desc {
+        flex-direction: column;
+    }
+    .steps {
+        height: auto;
+        padding: 50px;
+    }
+    .actual h1 {
+        font-size: var(--fz5);
+    }
+    .actual__inner-item h1 {
+        font-size: var(--fz3);
+
+    }
+    .actual__inner-item {
+        width: 95%;
+    }
+    .ychastie {
+        flex-direction: column-reverse;
+    }
+    .proshloe {
+        padding: 50px;
+    }
+    .swiper {
+        width: 95%;
+        height: 726px;
+        padding: 50px !important;
+        background: var(--lightgreen);
+        box-shadow: inset 0 0 35px var(--intermediategreen);
+        border-radius: 140px;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .komitet__inner-item {
+        width: 90%;
+    }
+    .winners h1 {
+        font-size: var(--fz4);
+    }
+    .winners__inner {
+        flex-direction: column;
+        width: 100%;
+    }
+    .winners__inner-item,
+    .winners__inner-item:nth-child(1),
+    .winners__inner-item:nth-child(2) {
+        width: 100%;
+    }
+    .winners__inner-item select[name="winners-spec"] {
+        width: 100%;
+        height: 90px;
+        background: var(--darkgreen);
+        border-radius: 20px;
+        font-family: PressStart, sans-serif;
+        text-align: left;
+        font-size: var(--fz2);
+        color: white;
+        border: none;
+        padding: 25px;
+    
+    }
+    .register h1 {
+        font-size: var(--fz1);
+        text-wrap: wrap;
+        text-align: center;
+        color: white;
+        line-height: 36px;
+    }
+    .register button {
+        padding: 15px;
+    }
+    .footer-documentaion h1,
+    .footer-documentaion a {
+        font-size: var(--fz3);
+    }
+    .footer-links h1,
+    .footer-links a {
+        font-size: var(--fz3);
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 360px) {
+    
+}
