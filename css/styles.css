@@ -35,7 +35,7 @@ img {
     height: 100%;
 }
 
-/* body::-webkit-scrollbar { display: none; } */
+body::-webkit-scrollbar { display: none; }
 
 body {
     font-family: PressStart, sans-serif;
