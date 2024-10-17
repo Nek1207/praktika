@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#666666;}
+	.st2{fill:none;stroke:#666666;stroke-width:30;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#666666;stroke-width:30;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#666666;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#666666;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:none;stroke:#666666;stroke-width:10;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#666666;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="_Слой_3">
+	<g>
+		<path class="st0" d="M60.3,590.6c-28.1,0-50.9-22.8-50.9-50.9V60.9C9.5,32.8,32.3,10,60.3,10h478.8c28.1,0,50.9,22.8,50.9,50.9
+			v478.8c0,28.1-22.8,50.9-50.9,50.9H60.3z"/>
+		<path class="st1" d="M539.1,20c22.6,0,40.9,18.3,40.9,40.9v478.8c0,22.6-18.3,40.9-40.9,40.9H60.3c-22.6,0-40.9-18.3-40.9-40.9
+			V60.9c0-11,4.3-21.3,12-29c7.7-7.7,18-11.9,28.9-11.9H539.1 M539.1,0H60.3C26.6,0-0.5,27.2-0.6,60.9v478.8
+			c0,33.7,27.4,60.9,60.9,60.9h478.8c33.7,0,60.9-27.4,60.9-60.9V60.9C600,27.2,572.6,0,539.1,0L539.1,0z"/>
+	</g>
+</g>
+<g id="_Слой_7">
+	<path class="st2" d="M181.8,507.5l106.1-300.9c2.8-7.6,13.8-7.1,15.7,0.9l71.6,300"/>
+	<line class="st3" x1="233.9" y1="359.5" x2="339.7" y2="359.5"/>
+	<line class="st2" x1="453.6" y1="507.5" x2="453.6" y2="201.3"/>
+	<path class="st4" d="M236.8,101.5c-101,3.3-99.8,103.2-103.2,111.8"/>
+	<polyline class="st5" points="130.2,221.9 88.9,221.9 88.9,175.5 137.1,175.5 136.6,176.8 95.1,152.4 121.6,110.1 154.3,132.5 
+		135.4,89.5 173.2,70.5 194.2,107.2 194.2,60.2 245.6,60.2 245.6,98.1 	"/>
+	<path class="st6" d="M245.5,133.1c-80.3,2.6-79.5,82.2-82.2,88.9"/>
+	<path class="st7" d="M245.5,160c-53.3,1.9-52.6,58.7-54.4,63.7"/>
+</g>
+</svg>

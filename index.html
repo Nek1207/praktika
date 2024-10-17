@@ -12,11 +12,17 @@
 <body>
     <header>
         <img src="./img/svg/logo.svg" alt="logo">
-        <nav class="header__nav">
+        <nav class="header__nav header__nav-text">
             <a href="#" class="header__nav-title">главная</a>
             <a href="#actual" class="header__nav-title">новости</a>
             <a href="#" class="header__nav-title">информация</a>
             <a href="#" class="header__nav-title">контакты</a>
+        </nav>
+        <nav class="header__nav header__nav-image">
+            <a href="#" class="header__nav-title"><img src="./img/svg/main.svg"></a>
+            <a href="#actual" class="header__nav-title"><img src="./img/svg/news.svg"></a>
+            <a href="#" class="header__nav-title"><img src="./img/svg/info.svg"></a>
+            <a href="#" class="header__nav-title"><img src="./img/svg/contacts.svg"></a>
         </nav>
         <div class="header__cabinet">
             <img src="./img/svg/volga_icon2.svg" alt="cabinet">
@@ -197,6 +203,30 @@
             <h1>Самое актуальное</h1>
             <div class="actual__inner">
                 <div class="actual__inner-item">
+                    <h1>11.10.2024</h1>
+                    <div class="actual__inner-item-desc">
+                        <img src="./img/jpg/Вебинары.jpg">
+                        <p>Итоги вебинаров 2024</p>
+                        <button>подробнее</button>
+                    </div>
+                </div>
+                <div class="actual__inner-item">
+                    <h1>10.10.2024</h1>
+                    <div class="actual__inner-item-desc">
+                        <img src="./img/png/чат.png">
+                        <p>Чат для участников</p>
+                        <button>подробнее</button>
+                    </div>
+                </div>
+                <div class="actual__inner-item">
+                    <h1>05.10.2024</h1>
+                    <div class="actual__inner-item-desc">
+                        <img src="./img/png/волга-it_ПРОДЛЕНИЕ.png">
+                        <p>Регистрация продлена до 25 октября!</p>
+                        <button>подробнее</button>
+                    </div>
+                </div>
+                <div class="actual__inner-item">
                     <h1>06.09.2024</h1>
                     <div class="actual__inner-item-desc">
                         <img src="./img/jpg/volga-it-picture1.jpg">
@@ -296,7 +326,7 @@
             </div>
             <div class="tasks__inner">
                 <div class="tasks__inner-item">
-                    <h1>Задания</h1>
+                    <h1 class="stupid-title">Задания</h1>
                     <div class="downloads">
                         <a class="download">
                             <img src="./img/svg/volga-it_10.svg" alt="download">
