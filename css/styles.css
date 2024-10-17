@@ -1725,8 +1725,25 @@ footer {
     .header__nav-text {
         display: none;
     }
+    .numbers {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .numbers-item {
+        border-radius: 20px;
+        background: #111;
+        width: 100%;
+        gap: 10px;
+        padding: 20px;
+        min-height: 400px;
+    }
     .our-numbers h1 {
         font-size: var(--fz4);
+    }
+    .numbers-item h1,
+    .numbers-item p {
+        font-size: var(--fz3);
     }
     .our-numbers {
         padding: 60px 20px;
@@ -1910,8 +1927,17 @@ footer {
     .our-numbers h1 {
         font-size: var(--fz3);
     }
-    .number-item {
+    .numbers {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .numbers-item {
+        border-radius: 20px;
+        background: #111;
+        width: 100%;
         gap: 10px;
+        padding: 20px;
     }
     .numbers-item h1,
     .numbers-item p {
