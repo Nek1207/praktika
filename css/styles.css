@@ -1712,6 +1712,19 @@ footer {
 
 @media (max-width: 768px) {
     .header__cabinet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__cabinet img {
+        width: 30%;
+        height: 30%;
+    }
+    .header__cabinet a {
+        font-size: 10px;
+    }
+    .header__cabinet {
         width: 30%;
     }
     .header__nav-image {
@@ -1896,18 +1909,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .header__cabinet {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .header__cabinet img {
-        width: 40%;
-        height: 40%;
-    }
-    .header__cabinet a {
-        font-size: 10px;
+    .header__nav-title {
+        font-size: 1px;
     }
     .description h1 {
         font-size: var(--fz2);
@@ -1985,7 +1988,7 @@ footer {
     }
     .swiper {
         border-radius: 20px;
-        width: 105%;
+        width: 90%;
     }
     .tasks p {
         line-height: 36px;
@@ -1997,6 +2000,9 @@ footer {
     .komitet__inner-item p {
         font-size: 10px;
         line-height: 24px;
+    }
+    .actual__inner-item {
+        width: 80%;
     }
     .winners h1 {
         font-size: var(--fz1);
